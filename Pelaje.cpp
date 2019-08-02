@@ -36,7 +36,9 @@
 	        this->largo = largo;
 	    }	
 		
-		
+		~Pelaje(){
+			
+		}
 			
 	};
 #endif

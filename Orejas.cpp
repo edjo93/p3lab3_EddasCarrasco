@@ -26,7 +26,9 @@
 	        this->capacidad_audicion = capacidad_audicion;
 	    }	
 			
-		
+		~Orejas(){
+			
+		}
 		
 			
 	};

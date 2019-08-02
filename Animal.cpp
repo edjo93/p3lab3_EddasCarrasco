@@ -87,5 +87,8 @@
 		Cola* getCola(){
 			return cola;
 		}
+		~Animal(){
+			
+		}
 	};
 #endif

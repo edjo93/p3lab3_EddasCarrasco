@@ -36,6 +36,9 @@
 	        this->tipo_patas = tipo_patas;
 	    }
 		
+		~Patas(){
+			
+		}
 			
 	};
 #endif
