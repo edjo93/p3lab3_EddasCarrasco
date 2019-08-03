@@ -5,9 +5,9 @@
 	#include"Ojos.cpp"
 	#include"Orejas.cpp"
 	#include"Cola.cpp"
+	#include<iostream>
 	class Animal{
 		private:
-			
 			string especie;
 			string nombre;
 			int tamanio;
@@ -86,6 +86,10 @@
 		}
 		Cola* getCola(){
 			return cola;
+		}
+		
+		void print(){
+			cout<<"\nespecie: "<<especie<<"\nnombre: "<<nombre<<"\ntipo: "<<tipo;
 		}
 		~Animal(){
 			
