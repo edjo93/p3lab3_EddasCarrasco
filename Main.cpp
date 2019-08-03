@@ -50,7 +50,7 @@ int main(){
 					cout<<"\nlargo de patas: ";
 					cin>>intvalue;
 					animal->getPatas()->setLargo_patas(intvalue);
-					cout<<"\tipo de patas: ";
+					cout<<"\ntipo de patas: ";
 					getline(cin,stringvalue);
 					getline(cin,stringvalue);
 					animal->getPatas()->setTipo_patas(stringvalue);
