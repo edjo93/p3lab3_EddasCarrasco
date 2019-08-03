@@ -40,7 +40,7 @@ int main(){
 					cout<<"\ntamaño: ";
 					cin>>intvalue;
 					animal->setTamanio(intvalue);
-					cout<<"\ntipo:"	;
+					cout<<"\ntipo: "	;
 					getline(cin,stringvalue);
 					getline(cin,stringvalue);
 					animal->setTipo(stringvalue);
@@ -67,7 +67,7 @@ int main(){
 					getline(cin,stringvalue);
 					getline(cin,stringvalue);
 					animal->getOjos()->setColor(stringvalue);
-					cout<<"\nvision nocturna?";
+					cout<<"\nvision nocturna?: ";
 					getline(cin,stringvalue);
 					animal->getOjos()->setVision_nocturna(stringvalue);
 					cout<<"\ntamaño de orejas: ";
@@ -77,10 +77,10 @@ int main(){
 					getline(cin,stringvalue);
 					getline(cin,stringvalue);
 					animal->getOrejas()->setCapacidad_audicion(stringvalue);
-					cout<<"\nlargo de cola";
+					cout<<"\nlargo de cola: ";
 					cin>>intvalue;
 					animal->getCola()->setLargo(intvalue);
-					cout<<"\nes peluda?(si/no)";
+					cout<<"\nes peluda?(si/no): ";
 					getline(cin,stringvalue);
 					getline(cin,stringvalue);
 					animal->getCola()->setPeluda(stringvalue);
