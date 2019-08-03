@@ -20,7 +20,7 @@ int main(){
 	//mostramos el menu
 	int opcion;
 	do{
-		cout<<"\n\nzoologico "<<zoologico->getNombre()<<"!\n1 - agregar animal\n2 - transferir al zoologico\n3 - listar animales por tipo\n?:  ";
+		cout<<"\n\nzoologico "<<zoologico->getNombre()<<"!\n1 - agregar animal\n2 - transferir al zoologico\n3 - listar animales por tipo\n4 - salir\n?:  ";
 		cin>>opcion;
 		switch(opcion){
 			case 1:
